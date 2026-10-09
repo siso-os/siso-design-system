@@ -75,10 +75,6 @@ The `_external/21st-dev/` bank is platform-agnostic (mix of desktop + mobile + r
 - [CATALOG.md](./CATALOG.md) — usage-first index: "I'm building X, which components?"
 - [ADAPTERS.md](./ADAPTERS.md) — adapter contract spec + wiring recipes
 
-**Legacy (being migrated per ARCHITECTURE.md):**
-- [_raw/README.md](./_raw/README.md) — raw bank rules
-- [_external/README.md](./_external/README.md) — 3rd-party bank rules
-
 ## Philosophy
 
 - **Provenance is sacred.** Every component traces to its source forever.

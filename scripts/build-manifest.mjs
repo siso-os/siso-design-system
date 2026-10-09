@@ -424,8 +424,9 @@ function buildManifest() {
       files: item.files?.map(f => f.path) || [],
       addedAt: getAddedAt(itemPath),
       relativePath: `library/${source}/${slug}/`,
-      folderPath,
-      readmePath,
+      // Relative to the repo root, so the manifest holds no machine paths (the viewer resolves them from the repo).
+      folderPath: path.relative(ROOT, folderPath),
+      readmePath: path.relative(ROOT, readmePath),
       preview,
       ...(existsSync(path.join(folderPath, 'preview.png'))
         ? { thumbnail: `/thumbnails/${source}__${slug}.png`, hasThumbnail: true }

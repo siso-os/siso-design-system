@@ -1,0 +1,2866 @@
+{
+ "version": 1,
+ "built": "2026-10-11",
+ "source": "siso-ui-code types.jsonl (ratings 1–5 by a model classifier, not people)",
+ "min_n": 30,
+ "nodes": {
+  "atom/button": {
+   "slots": [
+    "any:action"
+   ],
+   "n": 13214,
+   "mean": 2.3,
+   "looks": [
+    {
+     "style": "illustrated",
+     "mean": 3.2,
+     "n": 30
+    },
+    {
+     "style": "3d",
+     "mean": 3.15,
+     "n": 137
+    },
+    {
+     "style": "glass",
+     "mean": 3.06,
+     "n": 237
+    },
+    {
+     "style": "playful",
+     "mean": 2.89,
+     "n": 449
+    },
+    {
+     "style": "skeuomorphic",
+     "mean": 2.84,
+     "n": 109
+    },
+    {
+     "style": "neon-glow",
+     "mean": 2.75,
+     "n": 165
+    },
+    {
+     "style": "retro-hud",
+     "mean": 2.74,
+     "n": 175
+    },
+    {
+     "style": "gradient",
+     "mean": 2.67,
+     "n": 304
+    },
+    {
+     "style": "clean",
+     "mean": 2.57,
+     "n": 1256
+    },
+    {
+     "style": "dark",
+     "mean": 2.56,
+     "n": 2407
+    },
+    {
+     "style": "brutalist",
+     "mean": 2.36,
+     "n": 107
+    },
+    {
+     "style": "minimal",
+     "mean": 2.26,
+     "n": 7472
+    },
+    {
+     "style": "monochrome",
+     "mean": 2,
+     "n": 40
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.23,
+     "n": 1350
+    },
+    {
+     "style": "scroll",
+     "mean": 3.05,
+     "n": 87
+    },
+    {
+     "style": "entrance",
+     "mean": 2.74,
+     "n": 772
+    },
+    {
+     "style": "micro",
+     "mean": 2.58,
+     "n": 3294
+    },
+    {
+     "style": "loop",
+     "mean": 2.47,
+     "n": 648
+    },
+    {
+     "style": "none",
+     "mean": 1.91,
+     "n": 7061
+    }
+   ],
+   "finding": "13,214 parts (mean 2.3): illustrated rates 3.2 vs monochrome 2; interactive motion 3.23 vs none 1.91"
+  },
+  "atom/image": {
+   "slots": [
+    "any:media"
+   ],
+   "n": 1395,
+   "mean": 2.78,
+   "looks": [
+    {
+     "style": "glass",
+     "mean": 3.5,
+     "n": 76
+    },
+    {
+     "style": "3d",
+     "mean": 3.41,
+     "n": 115
+    },
+    {
+     "style": "gradient",
+     "mean": 3.22,
+     "n": 49
+    },
+    {
+     "style": "clean",
+     "mean": 3.08,
+     "n": 171
+    },
+    {
+     "style": "dark",
+     "mean": 3.08,
+     "n": 210
+    },
+    {
+     "style": "playful",
+     "mean": 2.83,
+     "n": 60
+    },
+    {
+     "style": "retro-hud",
+     "mean": 2.79,
+     "n": 84
+    },
+    {
+     "style": "minimal",
+     "mean": 2.49,
+     "n": 681
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.27,
+     "n": 472
+    },
+    {
+     "style": "loop",
+     "mean": 3.01,
+     "n": 87
+    },
+    {
+     "style": "entrance",
+     "mean": 2.8,
+     "n": 70
+    },
+    {
+     "style": "micro",
+     "mean": 2.78,
+     "n": 230
+    },
+    {
+     "style": "none",
+     "mean": 2.28,
+     "n": 518
+    }
+   ],
+   "finding": "1,395 parts (mean 2.78): glass rates 3.5 vs minimal 2.49; interactive motion 3.27 vs none 2.28"
+  },
+  "atom/layout": {
+   "slots": [
+    "any:layout"
+   ],
+   "n": 3544,
+   "mean": 1.91,
+   "looks": [
+    {
+     "style": "brutalist",
+     "mean": 2.66,
+     "n": 38
+    },
+    {
+     "style": "gradient",
+     "mean": 2.57,
+     "n": 35
+    },
+    {
+     "style": "dark",
+     "mean": 2.53,
+     "n": 179
+    },
+    {
+     "style": "retro-hud",
+     "mean": 2.51,
+     "n": 51
+    },
+    {
+     "style": "glass",
+     "mean": 2.46,
+     "n": 50
+    },
+    {
+     "style": "clean",
+     "mean": 2.27,
+     "n": 380
+    },
+    {
+     "style": "light",
+     "mean": 2.15,
+     "n": 33
+    },
+    {
+     "style": "minimal",
+     "mean": 1.83,
+     "n": 2363
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 2.79,
+     "n": 193
+    },
+    {
+     "style": "scroll",
+     "mean": 2.77,
+     "n": 189
+    },
+    {
+     "style": "micro",
+     "mean": 2.59,
+     "n": 341
+    },
+    {
+     "style": "entrance",
+     "mean": 2.34,
+     "n": 86
+    },
+    {
+     "style": "loop",
+     "mean": 2.28,
+     "n": 58
+    },
+    {
+     "style": "none",
+     "mean": 1.68,
+     "n": 2671
+    }
+   ],
+   "finding": "3,544 parts (mean 1.91): brutalist rates 2.66 vs minimal 1.83; interactive motion 2.79 vs none 1.68"
+  },
+  "atom/loader": {
+   "slots": [
+    "dashboard:loading"
+   ],
+   "n": 1835,
+   "mean": 2.74,
+   "looks": [
+    {
+     "style": "dark",
+     "mean": 3.01,
+     "n": 518
+    },
+    {
+     "style": "minimal",
+     "mean": 2.67,
+     "n": 1191
+    },
+    {
+     "style": "clean",
+     "mean": 2.15,
+     "n": 60
+    }
+   ],
+   "motion": [
+    {
+     "style": "loop",
+     "mean": 2.87,
+     "n": 1507
+    },
+    {
+     "style": "micro",
+     "mean": 2.43,
+     "n": 95
+    },
+    {
+     "style": "none",
+     "mean": 1.98,
+     "n": 216
+    }
+   ],
+   "finding": "1,835 parts (mean 2.74): dark rates 3.01 vs clean 2.15; loop motion 2.87 vs none 1.98"
+  },
+  "component/agent-parts": {
+   "slots": [
+    "ai:agent-status",
+    "ai:tool-call",
+    "ai:sources"
+   ],
+   "n": 620,
+   "mean": 2.87,
+   "looks": [
+    {
+     "style": "3d",
+     "mean": 4,
+     "n": 30
+    },
+    {
+     "style": "clean",
+     "mean": 3.19,
+     "n": 70
+    },
+    {
+     "style": "dark",
+     "mean": 3.15,
+     "n": 176
+    },
+    {
+     "style": "minimal",
+     "mean": 2.76,
+     "n": 162
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.96,
+     "n": 54
+    },
+    {
+     "style": "micro",
+     "mean": 3.15,
+     "n": 174
+    },
+    {
+     "style": "entrance",
+     "mean": 2.93,
+     "n": 46
+    },
+    {
+     "style": "loop",
+     "mean": 2.79,
+     "n": 82
+    },
+    {
+     "style": "none",
+     "mean": 2.45,
+     "n": 260
+    }
+   ],
+   "finding": "620 parts (mean 2.87): 3d rates 4 vs minimal 2.76; interactive motion 3.96 vs none 2.45"
+  },
+  "component/alert": {
+   "slots": [
+    "any:feedback"
+   ],
+   "n": 6269,
+   "mean": 2.37,
+   "looks": [
+    {
+     "style": "neon-glow",
+     "mean": 3.09,
+     "n": 56
+    },
+    {
+     "style": "playful",
+     "mean": 2.88,
+     "n": 163
+    },
+    {
+     "style": "glass",
+     "mean": 2.84,
+     "n": 88
+    },
+    {
+     "style": "clean",
+     "mean": 2.79,
+     "n": 515
+    },
+    {
+     "style": "gradient",
+     "mean": 2.77,
+     "n": 164
+    },
+    {
+     "style": "dark",
+     "mean": 2.75,
+     "n": 967
+    },
+    {
+     "style": "retro-hud",
+     "mean": 2.58,
+     "n": 212
+    },
+    {
+     "style": "brutalist",
+     "mean": 2.37,
+     "n": 35
+    },
+    {
+     "style": "minimal",
+     "mean": 2.19,
+     "n": 4157
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.33,
+     "n": 120
+    },
+    {
+     "style": "loop",
+     "mean": 2.57,
+     "n": 2735
+    },
+    {
+     "style": "entrance",
+     "mean": 2.41,
+     "n": 774
+    },
+    {
+     "style": "micro",
+     "mean": 2.26,
+     "n": 970
+    },
+    {
+     "style": "none",
+     "mean": 2,
+     "n": 1649
+    }
+   ],
+   "finding": "6,269 parts (mean 2.37): neon-glow rates 3.09 vs minimal 2.19; interactive motion 3.33 vs none 2"
+  },
+  "component/board": {
+   "slots": [
+    "dashboard:kanban"
+   ],
+   "n": 171,
+   "mean": 3.19,
+   "looks": [
+    {
+     "style": "clean",
+     "mean": 3.47,
+     "n": 99
+    },
+    {
+     "style": "dark",
+     "mean": 3.18,
+     "n": 51
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.32,
+     "n": 112
+    },
+    {
+     "style": "none",
+     "mean": 2.64,
+     "n": 33
+    }
+   ],
+   "finding": "171 parts (mean 3.19): clean rates 3.47 vs dark 3.18; interactive motion 3.32 vs none 2.64"
+  },
+  "component/calendar": {
+   "slots": [
+    "dashboard:calendar"
+   ],
+   "n": 990,
+   "mean": 2.3,
+   "looks": [
+    {
+     "style": "dark",
+     "mean": 2.63,
+     "n": 288
+    },
+    {
+     "style": "clean",
+     "mean": 2.22,
+     "n": 481
+    },
+    {
+     "style": "minimal",
+     "mean": 2.16,
+     "n": 305
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.93,
+     "n": 59
+    },
+    {
+     "style": "entrance",
+     "mean": 3,
+     "n": 30
+    },
+    {
+     "style": "micro",
+     "mean": 2.77,
+     "n": 200
+    },
+    {
+     "style": "none",
+     "mean": 1.99,
+     "n": 692
+    }
+   ],
+   "finding": "990 parts (mean 2.3): dark rates 2.63 vs minimal 2.16; interactive motion 3.93 vs none 1.99"
+  },
+  "component/chart": {
+   "slots": [
+    "dashboard:chart"
+   ],
+   "n": 3107,
+   "mean": 2.79,
+   "looks": [
+    {
+     "style": "monochrome",
+     "mean": 3.68,
+     "n": 37
+    },
+    {
+     "style": "gradient",
+     "mean": 3.06,
+     "n": 180
+    },
+    {
+     "style": "retro-hud",
+     "mean": 3,
+     "n": 53
+    },
+    {
+     "style": "clean",
+     "mean": 2.89,
+     "n": 1568
+    },
+    {
+     "style": "dark",
+     "mean": 2.84,
+     "n": 922
+    },
+    {
+     "style": "minimal",
+     "mean": 2.63,
+     "n": 842
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.33,
+     "n": 212
+    },
+    {
+     "style": "loop",
+     "mean": 3.09,
+     "n": 204
+    },
+    {
+     "style": "micro",
+     "mean": 3.08,
+     "n": 599
+    },
+    {
+     "style": "entrance",
+     "mean": 2.72,
+     "n": 201
+    },
+    {
+     "style": "none",
+     "mean": 2.62,
+     "n": 1878
+    }
+   ],
+   "finding": "3,107 parts (mean 2.79): monochrome rates 3.68 vs minimal 2.63; interactive motion 3.33 vs none 2.62"
+  },
+  "component/code": {
+   "slots": [
+    "content:code"
+   ],
+   "n": 496,
+   "mean": 2.41,
+   "looks": [
+    {
+     "style": "clean",
+     "mean": 2.96,
+     "n": 111
+    },
+    {
+     "style": "dark",
+     "mean": 2.7,
+     "n": 186
+    },
+    {
+     "style": "monochrome",
+     "mean": 2.56,
+     "n": 50
+    },
+    {
+     "style": "minimal",
+     "mean": 2.17,
+     "n": 187
+    }
+   ],
+   "motion": [
+    {
+     "style": "micro",
+     "mean": 2.97,
+     "n": 121
+    },
+    {
+     "style": "none",
+     "mean": 2.12,
+     "n": 337
+    }
+   ],
+   "finding": "496 parts (mean 2.41): clean rates 2.96 vs minimal 2.17; micro motion 2.97 vs none 2.12"
+  },
+  "component/command": {
+   "slots": [
+    "dashboard:command"
+   ],
+   "n": 229,
+   "mean": 2.98,
+   "looks": [
+    {
+     "style": "dark",
+     "mean": 3.08,
+     "n": 144
+    },
+    {
+     "style": "clean",
+     "mean": 3.06,
+     "n": 96
+    },
+    {
+     "style": "minimal",
+     "mean": 2.87,
+     "n": 77
+    }
+   ],
+   "motion": [
+    {
+     "style": "micro",
+     "mean": 2.94,
+     "n": 130
+    },
+    {
+     "style": "none",
+     "mean": 2.49,
+     "n": 55
+    }
+   ],
+   "finding": "229 parts (mean 2.98): dark rates 3.08 vs minimal 2.87; micro motion 2.94 vs none 2.49"
+  },
+  "component/composer": {
+   "slots": [
+    "ai:composer"
+   ],
+   "n": 603,
+   "mean": 2.96,
+   "looks": [
+    {
+     "style": "dark",
+     "mean": 3.27,
+     "n": 215
+    },
+    {
+     "style": "clean",
+     "mean": 3.14,
+     "n": 218
+    },
+    {
+     "style": "minimal",
+     "mean": 2.54,
+     "n": 199
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.61,
+     "n": 33
+    },
+    {
+     "style": "micro",
+     "mean": 3.31,
+     "n": 256
+    },
+    {
+     "style": "entrance",
+     "mean": 3.27,
+     "n": 55
+    },
+    {
+     "style": "none",
+     "mean": 2.4,
+     "n": 235
+    }
+   ],
+   "finding": "603 parts (mean 2.96): dark rates 3.27 vs minimal 2.54; interactive motion 3.61 vs none 2.4"
+  },
+  "component/dialog": {
+   "slots": [
+    "any:overlay"
+   ],
+   "n": 3012,
+   "mean": 2.42,
+   "looks": [
+    {
+     "style": "glass",
+     "mean": 2.95,
+     "n": 133
+    },
+    {
+     "style": "dark",
+     "mean": 2.78,
+     "n": 486
+    },
+    {
+     "style": "clean",
+     "mean": 2.77,
+     "n": 635
+    },
+    {
+     "style": "brutalist",
+     "mean": 2.6,
+     "n": 43
+    },
+    {
+     "style": "retro-hud",
+     "mean": 2.39,
+     "n": 38
+    },
+    {
+     "style": "minimal",
+     "mean": 2.2,
+     "n": 1853
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.13,
+     "n": 167
+    },
+    {
+     "style": "entrance",
+     "mean": 2.63,
+     "n": 653
+    },
+    {
+     "style": "micro",
+     "mean": 2.5,
+     "n": 1199
+    },
+    {
+     "style": "none",
+     "mean": 2.03,
+     "n": 978
+    }
+   ],
+   "finding": "3,012 parts (mean 2.42): glass rates 2.95 vs minimal 2.2; interactive motion 3.13 vs none 2.03"
+  },
+  "component/empty": {
+   "slots": [
+    "dashboard:empty"
+   ],
+   "n": 425,
+   "mean": 2.51,
+   "looks": [
+    {
+     "style": "clean",
+     "mean": 3.07,
+     "n": 135
+    },
+    {
+     "style": "dark",
+     "mean": 2.87,
+     "n": 78
+    },
+    {
+     "style": "minimal",
+     "mean": 2.11,
+     "n": 227
+    }
+   ],
+   "motion": [
+    {
+     "style": "micro",
+     "mean": 3.65,
+     "n": 31
+    },
+    {
+     "style": "none",
+     "mean": 2.35,
+     "n": 369
+    }
+   ],
+   "finding": "425 parts (mean 2.51): clean rates 3.07 vs minimal 2.11; micro motion 3.65 vs none 2.35"
+  },
+  "component/field": {
+   "slots": [
+    "any:field"
+   ],
+   "n": 13676,
+   "mean": 2.3,
+   "looks": [
+    {
+     "style": "3d",
+     "mean": 3.56,
+     "n": 75
+    },
+    {
+     "style": "playful",
+     "mean": 3.29,
+     "n": 203
+    },
+    {
+     "style": "gradient",
+     "mean": 3.26,
+     "n": 95
+    },
+    {
+     "style": "glass",
+     "mean": 2.96,
+     "n": 217
+    },
+    {
+     "style": "clean",
+     "mean": 2.83,
+     "n": 2543
+    },
+    {
+     "style": "skeuomorphic",
+     "mean": 2.8,
+     "n": 75
+    },
+    {
+     "style": "retro-hud",
+     "mean": 2.75,
+     "n": 135
+    },
+    {
+     "style": "monochrome",
+     "mean": 2.61,
+     "n": 31
+    },
+    {
+     "style": "dark",
+     "mean": 2.44,
+     "n": 3144
+    },
+    {
+     "style": "brutalist",
+     "mean": 2.39,
+     "n": 75
+    },
+    {
+     "style": "minimal",
+     "mean": 2.1,
+     "n": 7960
+    },
+    {
+     "style": "light",
+     "mean": 2.08,
+     "n": 37
+    }
+   ],
+   "motion": [
+    {
+     "style": "entrance",
+     "mean": 3.24,
+     "n": 332
+    },
+    {
+     "style": "interactive",
+     "mean": 3.22,
+     "n": 844
+    },
+    {
+     "style": "loop",
+     "mean": 2.96,
+     "n": 119
+    },
+    {
+     "style": "micro",
+     "mean": 2.63,
+     "n": 3499
+    },
+    {
+     "style": "none",
+     "mean": 2.04,
+     "n": 8870
+    }
+   ],
+   "finding": "13,676 parts (mean 2.3): 3d rates 3.56 vs light 2.08; entrance motion 3.24 vs none 2.04"
+  },
+  "component/form": {
+   "slots": [
+    "dashboard:form"
+   ],
+   "n": 1504,
+   "mean": 2.71,
+   "looks": [
+    {
+     "style": "dark",
+     "mean": 3.03,
+     "n": 283
+    },
+    {
+     "style": "clean",
+     "mean": 2.99,
+     "n": 479
+    },
+    {
+     "style": "minimal",
+     "mean": 2.58,
+     "n": 746
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.59,
+     "n": 54
+    },
+    {
+     "style": "entrance",
+     "mean": 3.26,
+     "n": 87
+    },
+    {
+     "style": "micro",
+     "mean": 2.86,
+     "n": 654
+    },
+    {
+     "style": "none",
+     "mean": 2.43,
+     "n": 696
+    }
+   ],
+   "finding": "1,504 parts (mean 2.71): dark rates 3.03 vs minimal 2.58; interactive motion 3.59 vs none 2.43"
+  },
+  "component/inbox": {
+   "slots": [
+    "dashboard:inbox"
+   ],
+   "n": 61,
+   "mean": 3.15,
+   "looks": [
+    {
+     "style": "minimal",
+     "mean": 3.03,
+     "n": 30
+    }
+   ],
+   "motion": [
+    {
+     "style": "none",
+     "mean": 2.97,
+     "n": 38
+    }
+   ],
+   "finding": null
+  },
+  "component/list": {
+   "slots": [
+    "dashboard:list"
+   ],
+   "n": 1463,
+   "mean": 2.86,
+   "looks": [
+    {
+     "style": "dark",
+     "mean": 3.13,
+     "n": 176
+    },
+    {
+     "style": "clean",
+     "mean": 3.1,
+     "n": 558
+    },
+    {
+     "style": "minimal",
+     "mean": 2.69,
+     "n": 585
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.55,
+     "n": 175
+    },
+    {
+     "style": "entrance",
+     "mean": 3.19,
+     "n": 53
+    },
+    {
+     "style": "micro",
+     "mean": 3.11,
+     "n": 530
+    },
+    {
+     "style": "none",
+     "mean": 2.45,
+     "n": 668
+    }
+   ],
+   "finding": "1,463 parts (mean 2.86): dark rates 3.13 vs minimal 2.69; interactive motion 3.55 vs none 2.45"
+  },
+  "component/map": {
+   "slots": [
+    "dashboard:map"
+   ],
+   "n": 422,
+   "mean": 3.1,
+   "looks": [
+    {
+     "style": "clean",
+     "mean": 3.2,
+     "n": 298
+    },
+    {
+     "style": "dark",
+     "mean": 2.79,
+     "n": 141
+    },
+    {
+     "style": "minimal",
+     "mean": 2.58,
+     "n": 48
+    }
+   ],
+   "motion": [
+    {
+     "style": "micro",
+     "mean": 3.58,
+     "n": 195
+    },
+    {
+     "style": "loop",
+     "mean": 3.33,
+     "n": 33
+    },
+    {
+     "style": "interactive",
+     "mean": 3.22,
+     "n": 37
+    },
+    {
+     "style": "none",
+     "mean": 2.34,
+     "n": 137
+    }
+   ],
+   "finding": "422 parts (mean 3.1): clean rates 3.2 vs minimal 2.58; micro motion 3.58 vs none 2.34"
+  },
+  "component/menu": {
+   "slots": [
+    "any:navigation"
+   ],
+   "n": 2614,
+   "mean": 2.53,
+   "looks": [
+    {
+     "style": "glass",
+     "mean": 3.24,
+     "n": 62
+    },
+    {
+     "style": "clean",
+     "mean": 3.02,
+     "n": 578
+    },
+    {
+     "style": "dark",
+     "mean": 2.85,
+     "n": 629
+    },
+    {
+     "style": "minimal",
+     "mean": 2.3,
+     "n": 1716
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.36,
+     "n": 338
+    },
+    {
+     "style": "entrance",
+     "mean": 3.04,
+     "n": 91
+    },
+    {
+     "style": "micro",
+     "mean": 2.94,
+     "n": 515
+    },
+    {
+     "style": "none",
+     "mean": 2.2,
+     "n": 1656
+    }
+   ],
+   "finding": "2,614 parts (mean 2.53): glass rates 3.24 vs minimal 2.3; interactive motion 3.36 vs none 2.2"
+  },
+  "component/message": {
+   "slots": [
+    "ai:message"
+   ],
+   "n": 1054,
+   "mean": 2.75,
+   "looks": [
+    {
+     "style": "playful",
+     "mean": 3.17,
+     "n": 35
+    },
+    {
+     "style": "clean",
+     "mean": 2.96,
+     "n": 180
+    },
+    {
+     "style": "dark",
+     "mean": 2.93,
+     "n": 297
+    },
+    {
+     "style": "minimal",
+     "mean": 2.51,
+     "n": 524
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.63,
+     "n": 76
+    },
+    {
+     "style": "entrance",
+     "mean": 3.24,
+     "n": 157
+    },
+    {
+     "style": "micro",
+     "mean": 3.22,
+     "n": 241
+    },
+    {
+     "style": "loop",
+     "mean": 2.89,
+     "n": 97
+    },
+    {
+     "style": "none",
+     "mean": 2.12,
+     "n": 456
+    }
+   ],
+   "finding": "1,054 parts (mean 2.75): playful rates 3.17 vs minimal 2.51; interactive motion 3.63 vs none 2.12"
+  },
+  "component/table": {
+   "slots": [
+    "dashboard:table"
+   ],
+   "n": 2017,
+   "mean": 3.04,
+   "looks": [
+    {
+     "style": "dark",
+     "mean": 3.35,
+     "n": 402
+    },
+    {
+     "style": "clean",
+     "mean": 3.26,
+     "n": 971
+    },
+    {
+     "style": "minimal",
+     "mean": 2.94,
+     "n": 789
+    }
+   ],
+   "motion": [
+    {
+     "style": "micro",
+     "mean": 3.59,
+     "n": 791
+    },
+    {
+     "style": "interactive",
+     "mean": 3.2,
+     "n": 82
+    },
+    {
+     "style": "none",
+     "mean": 2.63,
+     "n": 1104
+    }
+   ],
+   "finding": "2,017 parts (mean 3.04): dark rates 3.35 vs minimal 2.94; micro motion 3.59 vs none 2.63"
+  },
+  "component/toast": {
+   "slots": [
+    "dashboard:notifications"
+   ],
+   "n": 391,
+   "mean": 2.92,
+   "looks": [
+    {
+     "style": "dark",
+     "mean": 3.14,
+     "n": 100
+    },
+    {
+     "style": "clean",
+     "mean": 3.03,
+     "n": 131
+    },
+    {
+     "style": "minimal",
+     "mean": 2.83,
+     "n": 158
+    }
+   ],
+   "motion": [
+    {
+     "style": "entrance",
+     "mean": 3.06,
+     "n": 65
+    },
+    {
+     "style": "micro",
+     "mean": 2.95,
+     "n": 121
+    },
+    {
+     "style": "none",
+     "mean": 2.71,
+     "n": 159
+    }
+   ],
+   "finding": "391 parts (mean 2.92): dark rates 3.14 vs minimal 2.83; entrance motion 3.06 vs none 2.71"
+  },
+  "component/toc": {
+   "slots": [
+    "content:toc"
+   ],
+   "n": 169,
+   "mean": 2.79,
+   "looks": [
+    {
+     "style": "clean",
+     "mean": 2.95,
+     "n": 74
+    },
+    {
+     "style": "minimal",
+     "mean": 2.65,
+     "n": 99
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.33,
+     "n": 42
+    },
+    {
+     "style": "micro",
+     "mean": 3,
+     "n": 49
+    },
+    {
+     "style": "none",
+     "mean": 2.23,
+     "n": 64
+    }
+   ],
+   "finding": "169 parts (mean 2.79): clean rates 2.95 vs minimal 2.65; interactive motion 3.33 vs none 2.23"
+  },
+  "page/article": {
+   "slots": [
+    "content:article"
+   ],
+   "n": 709,
+   "mean": 2.51,
+   "looks": [
+    {
+     "style": "editorial",
+     "mean": 3.29,
+     "n": 129
+    },
+    {
+     "style": "dark",
+     "mean": 3.09,
+     "n": 55
+    },
+    {
+     "style": "clean",
+     "mean": 2.93,
+     "n": 161
+    },
+    {
+     "style": "minimal",
+     "mean": 2.07,
+     "n": 357
+    }
+   ],
+   "motion": [
+    {
+     "style": "micro",
+     "mean": 3.5,
+     "n": 60
+    },
+    {
+     "style": "scroll",
+     "mean": 3.3,
+     "n": 44
+    },
+    {
+     "style": "none",
+     "mean": 2.28,
+     "n": 551
+    }
+   ],
+   "finding": "709 parts (mean 2.51): editorial rates 3.29 vs minimal 2.07; micro motion 3.5 vs none 2.28"
+  },
+  "page/not-found": {
+   "slots": [
+    "landing:error-page"
+   ],
+   "n": 229,
+   "mean": 2.76,
+   "looks": [
+    {
+     "style": "dark",
+     "mean": 3,
+     "n": 70
+    },
+    {
+     "style": "clean",
+     "mean": 2.95,
+     "n": 57
+    },
+    {
+     "style": "minimal",
+     "mean": 2.38,
+     "n": 90
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.47,
+     "n": 36
+    },
+    {
+     "style": "none",
+     "mean": 2.53,
+     "n": 158
+    }
+   ],
+   "finding": "229 parts (mean 2.76): dark rates 3 vs minimal 2.38; interactive motion 3.47 vs none 2.53"
+  },
+  "section/about": {
+   "slots": [
+    "landing:about"
+   ],
+   "n": 451,
+   "mean": 3.11,
+   "looks": [
+    {
+     "style": "editorial",
+     "mean": 3.41,
+     "n": 51
+    },
+    {
+     "style": "clean",
+     "mean": 3.26,
+     "n": 299
+    },
+    {
+     "style": "dark",
+     "mean": 3.2,
+     "n": 87
+    },
+    {
+     "style": "light",
+     "mean": 3.06,
+     "n": 90
+    },
+    {
+     "style": "minimal",
+     "mean": 2.5,
+     "n": 109
+    }
+   ],
+   "motion": [
+    {
+     "style": "entrance",
+     "mean": 3.65,
+     "n": 31
+    },
+    {
+     "style": "none",
+     "mean": 3.01,
+     "n": 365
+    }
+   ],
+   "finding": "451 parts (mean 3.11): editorial rates 3.41 vs minimal 2.5; entrance motion 3.65 vs none 3.01"
+  },
+  "section/announcement": {
+   "slots": [
+    "landing:announcement"
+   ],
+   "n": 390,
+   "mean": 3.01,
+   "looks": [
+    {
+     "style": "dark",
+     "mean": 3.24,
+     "n": 51
+    },
+    {
+     "style": "clean",
+     "mean": 3.18,
+     "n": 162
+    },
+    {
+     "style": "minimal",
+     "mean": 2.82,
+     "n": 180
+    }
+   ],
+   "motion": [
+    {
+     "style": "loop",
+     "mean": 3.23,
+     "n": 44
+    },
+    {
+     "style": "micro",
+     "mean": 3.2,
+     "n": 92
+    },
+    {
+     "style": "none",
+     "mean": 2.88,
+     "n": 233
+    }
+   ],
+   "finding": "390 parts (mean 3.01): dark rates 3.24 vs minimal 2.82; loop motion 3.23 vs none 2.88"
+  },
+  "section/auth": {
+   "slots": [
+    "dashboard:auth"
+   ],
+   "n": 1456,
+   "mean": 2.51,
+   "looks": [
+    {
+     "style": "gradient",
+     "mean": 3.38,
+     "n": 53
+    },
+    {
+     "style": "dark",
+     "mean": 2.83,
+     "n": 371
+    },
+    {
+     "style": "clean",
+     "mean": 2.62,
+     "n": 537
+    },
+    {
+     "style": "minimal",
+     "mean": 2.44,
+     "n": 750
+    }
+   ],
+   "motion": [
+    {
+     "style": "entrance",
+     "mean": 3.3,
+     "n": 37
+    },
+    {
+     "style": "micro",
+     "mean": 3.13,
+     "n": 158
+    },
+    {
+     "style": "none",
+     "mean": 2.37,
+     "n": 1206
+    }
+   ],
+   "finding": "1,456 parts (mean 2.51): gradient rates 3.38 vs minimal 2.44; entrance motion 3.3 vs none 2.37"
+  },
+  "section/blog": {
+   "slots": [
+    "landing:blog"
+   ],
+   "n": 644,
+   "mean": 2.87,
+   "looks": [
+    {
+     "style": "editorial",
+     "mean": 3.26,
+     "n": 53
+    },
+    {
+     "style": "dark",
+     "mean": 3.03,
+     "n": 120
+    },
+    {
+     "style": "clean",
+     "mean": 2.92,
+     "n": 418
+    },
+    {
+     "style": "minimal",
+     "mean": 2.57,
+     "n": 155
+    }
+   ],
+   "motion": [
+    {
+     "style": "micro",
+     "mean": 3.27,
+     "n": 135
+    },
+    {
+     "style": "none",
+     "mean": 2.7,
+     "n": 450
+    }
+   ],
+   "finding": "644 parts (mean 2.87): editorial rates 3.26 vs minimal 2.57; micro motion 3.27 vs none 2.7"
+  },
+  "section/chat": {
+   "slots": [
+    "ai:thread",
+    "dashboard:chat"
+   ],
+   "n": 790,
+   "mean": 2.97,
+   "looks": [
+    {
+     "style": "clean",
+     "mean": 3.29,
+     "n": 230
+    },
+    {
+     "style": "dark",
+     "mean": 3.23,
+     "n": 237
+    },
+    {
+     "style": "minimal",
+     "mean": 2.78,
+     "n": 309
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.43,
+     "n": 49
+    },
+    {
+     "style": "micro",
+     "mean": 3.26,
+     "n": 298
+    },
+    {
+     "style": "entrance",
+     "mean": 3.09,
+     "n": 158
+    },
+    {
+     "style": "none",
+     "mean": 2.37,
+     "n": 237
+    }
+   ],
+   "finding": "790 parts (mean 2.97): clean rates 3.29 vs minimal 2.78; interactive motion 3.43 vs none 2.37"
+  },
+  "section/comparison": {
+   "slots": [
+    "landing:comparison"
+   ],
+   "n": 137,
+   "mean": 2.89,
+   "looks": [
+    {
+     "style": "minimal",
+     "mean": 3.41,
+     "n": 34
+    },
+    {
+     "style": "clean",
+     "mean": 2.71,
+     "n": 98
+    }
+   ],
+   "motion": [
+    {
+     "style": "none",
+     "mean": 2.8,
+     "n": 117
+    }
+   ],
+   "finding": "137 parts (mean 2.89): minimal rates 3.41 vs clean 2.71"
+  },
+  "section/contact": {
+   "slots": [
+    "landing:contact"
+   ],
+   "n": 436,
+   "mean": 2.83,
+   "looks": [
+    {
+     "style": "dark",
+     "mean": 3.3,
+     "n": 79
+    },
+    {
+     "style": "clean",
+     "mean": 2.84,
+     "n": 271
+    },
+    {
+     "style": "minimal",
+     "mean": 2.6,
+     "n": 131
+    }
+   ],
+   "motion": [
+    {
+     "style": "micro",
+     "mean": 3.33,
+     "n": 88
+    },
+    {
+     "style": "none",
+     "mean": 2.6,
+     "n": 299
+    }
+   ],
+   "finding": "436 parts (mean 2.83): dark rates 3.3 vs minimal 2.6; micro motion 3.33 vs none 2.6"
+  },
+  "section/cta": {
+   "slots": [
+    "landing:cta"
+   ],
+   "n": 1134,
+   "mean": 2.88,
+   "looks": [
+    {
+     "style": "playful",
+     "mean": 3.23,
+     "n": 44
+    },
+    {
+     "style": "dark",
+     "mean": 3.01,
+     "n": 206
+    },
+    {
+     "style": "gradient",
+     "mean": 2.97,
+     "n": 119
+    },
+    {
+     "style": "clean",
+     "mean": 2.93,
+     "n": 570
+    },
+    {
+     "style": "minimal",
+     "mean": 2.56,
+     "n": 281
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.58,
+     "n": 57
+    },
+    {
+     "style": "entrance",
+     "mean": 3.28,
+     "n": 103
+    },
+    {
+     "style": "micro",
+     "mean": 3.19,
+     "n": 131
+    },
+    {
+     "style": "loop",
+     "mean": 3,
+     "n": 88
+    },
+    {
+     "style": "none",
+     "mean": 2.69,
+     "n": 739
+    }
+   ],
+   "finding": "1,134 parts (mean 2.88): playful rates 3.23 vs minimal 2.56; interactive motion 3.58 vs none 2.69"
+  },
+  "section/detail": {
+   "slots": [
+    "dashboard:detail"
+   ],
+   "n": 1036,
+   "mean": 2.6,
+   "looks": [
+    {
+     "style": "dark",
+     "mean": 3.22,
+     "n": 259
+    },
+    {
+     "style": "clean",
+     "mean": 3.16,
+     "n": 317
+    },
+    {
+     "style": "minimal",
+     "mean": 2.09,
+     "n": 533
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.27,
+     "n": 52
+    },
+    {
+     "style": "entrance",
+     "mean": 2.91,
+     "n": 118
+    },
+    {
+     "style": "none",
+     "mean": 2.74,
+     "n": 401
+    },
+    {
+     "style": "micro",
+     "mean": 2.29,
+     "n": 446
+    }
+   ],
+   "finding": "1,036 parts (mean 2.6): dark rates 3.22 vs minimal 2.09; interactive motion 3.27 vs micro 2.29"
+  },
+  "section/faq": {
+   "slots": [
+    "landing:faq"
+   ],
+   "n": 946,
+   "mean": 2.72,
+   "looks": [
+    {
+     "style": "editorial",
+     "mean": 3.2,
+     "n": 30
+    },
+    {
+     "style": "dark",
+     "mean": 3,
+     "n": 56
+    },
+    {
+     "style": "clean",
+     "mean": 2.87,
+     "n": 529
+    },
+    {
+     "style": "minimal",
+     "mean": 2.45,
+     "n": 384
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.43,
+     "n": 60
+    },
+    {
+     "style": "micro",
+     "mean": 2.8,
+     "n": 426
+    },
+    {
+     "style": "entrance",
+     "mean": 2.69,
+     "n": 77
+    },
+    {
+     "style": "none",
+     "mean": 2.48,
+     "n": 371
+    }
+   ],
+   "finding": "946 parts (mean 2.72): editorial rates 3.2 vs minimal 2.45; interactive motion 3.43 vs none 2.48"
+  },
+  "section/features": {
+   "slots": [
+    "landing:features"
+   ],
+   "n": 2162,
+   "mean": 2.99,
+   "looks": [
+    {
+     "style": "editorial",
+     "mean": 3.55,
+     "n": 117
+    },
+    {
+     "style": "gradient",
+     "mean": 3.45,
+     "n": 110
+    },
+    {
+     "style": "dark",
+     "mean": 3.33,
+     "n": 496
+    },
+    {
+     "style": "clean",
+     "mean": 3.08,
+     "n": 1298
+    },
+    {
+     "style": "light",
+     "mean": 3.08,
+     "n": 40
+    },
+    {
+     "style": "minimal",
+     "mean": 2.43,
+     "n": 475
+    }
+   ],
+   "motion": [
+    {
+     "style": "scroll",
+     "mean": 3.65,
+     "n": 81
+    },
+    {
+     "style": "interactive",
+     "mean": 3.64,
+     "n": 141
+    },
+    {
+     "style": "loop",
+     "mean": 3.31,
+     "n": 77
+    },
+    {
+     "style": "micro",
+     "mean": 3.14,
+     "n": 406
+    },
+    {
+     "style": "none",
+     "mean": 2.88,
+     "n": 1300
+    },
+    {
+     "style": "entrance",
+     "mean": 2.48,
+     "n": 155
+    }
+   ],
+   "finding": "2,162 parts (mean 2.99): editorial rates 3.55 vs minimal 2.43; scroll motion 3.65 vs entrance 2.48"
+  },
+  "section/filters": {
+   "slots": [
+    "dashboard:filters"
+   ],
+   "n": 786,
+   "mean": 2.99,
+   "looks": [
+    {
+     "style": "dark",
+     "mean": 3.45,
+     "n": 170
+    },
+    {
+     "style": "clean",
+     "mean": 3.32,
+     "n": 271
+    },
+    {
+     "style": "minimal",
+     "mean": 2.73,
+     "n": 381
+    }
+   ],
+   "motion": [
+    {
+     "style": "micro",
+     "mean": 3.27,
+     "n": 417
+    },
+    {
+     "style": "interactive",
+     "mean": 3.21,
+     "n": 56
+    },
+    {
+     "style": "none",
+     "mean": 2.53,
+     "n": 282
+    }
+   ],
+   "finding": "786 parts (mean 2.99): dark rates 3.45 vs minimal 2.73; micro motion 3.27 vs none 2.53"
+  },
+  "section/footer": {
+   "slots": [
+    "landing:footer"
+   ],
+   "n": 732,
+   "mean": 2.75,
+   "looks": [
+    {
+     "style": "dark",
+     "mean": 3.13,
+     "n": 187
+    },
+    {
+     "style": "editorial",
+     "mean": 2.97,
+     "n": 32
+    },
+    {
+     "style": "clean",
+     "mean": 2.86,
+     "n": 288
+    },
+    {
+     "style": "minimal",
+     "mean": 2.38,
+     "n": 273
+    }
+   ],
+   "motion": [
+    {
+     "style": "micro",
+     "mean": 3.09,
+     "n": 32
+    },
+    {
+     "style": "entrance",
+     "mean": 2.7,
+     "n": 40
+    },
+    {
+     "style": "none",
+     "mean": 2.68,
+     "n": 615
+    }
+   ],
+   "finding": "732 parts (mean 2.75): dark rates 3.13 vs minimal 2.38; micro motion 3.09 vs none 2.68"
+  },
+  "section/hero": {
+   "slots": [
+    "landing:hero"
+   ],
+   "n": 3443,
+   "mean": 3.07,
+   "looks": [
+    {
+     "style": "glass",
+     "mean": 3.71,
+     "n": 52
+    },
+    {
+     "style": "editorial",
+     "mean": 3.69,
+     "n": 279
+    },
+    {
+     "style": "3d",
+     "mean": 3.67,
+     "n": 203
+    },
+    {
+     "style": "dark",
+     "mean": 3.45,
+     "n": 721
+    },
+    {
+     "style": "monochrome",
+     "mean": 3.4,
+     "n": 42
+    },
+    {
+     "style": "neon-glow",
+     "mean": 3.33,
+     "n": 55
+    },
+    {
+     "style": "gradient",
+     "mean": 3.29,
+     "n": 398
+    },
+    {
+     "style": "retro-hud",
+     "mean": 3.27,
+     "n": 74
+    },
+    {
+     "style": "illustrated",
+     "mean": 3.22,
+     "n": 83
+    },
+    {
+     "style": "clean",
+     "mean": 3.1,
+     "n": 1162
+    },
+    {
+     "style": "playful",
+     "mean": 3.05,
+     "n": 353
+    },
+    {
+     "style": "light",
+     "mean": 2.96,
+     "n": 49
+    },
+    {
+     "style": "minimal",
+     "mean": 2.59,
+     "n": 898
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.42,
+     "n": 291
+    },
+    {
+     "style": "micro",
+     "mean": 3.32,
+     "n": 229
+    },
+    {
+     "style": "scroll",
+     "mean": 3.32,
+     "n": 165
+    },
+    {
+     "style": "loop",
+     "mean": 3.17,
+     "n": 589
+    },
+    {
+     "style": "entrance",
+     "mean": 3.1,
+     "n": 705
+    },
+    {
+     "style": "none",
+     "mean": 2.88,
+     "n": 1440
+    }
+   ],
+   "finding": "3,443 parts (mean 3.07): glass rates 3.71 vs minimal 2.59; interactive motion 3.42 vs none 2.88"
+  },
+  "section/how": {
+   "slots": [
+    "landing:how-it-works"
+   ],
+   "n": 75,
+   "mean": 3.17,
+   "looks": [
+    {
+     "style": "clean",
+     "mean": 3.21,
+     "n": 47
+    }
+   ],
+   "motion": [
+    {
+     "style": "none",
+     "mean": 2.92,
+     "n": 52
+    }
+   ],
+   "finding": null
+  },
+  "section/kpis": {
+   "slots": [
+    "dashboard:kpi"
+   ],
+   "n": 1434,
+   "mean": 2.82,
+   "looks": [
+    {
+     "style": "gradient",
+     "mean": 3.26,
+     "n": 42
+    },
+    {
+     "style": "clean",
+     "mean": 3.11,
+     "n": 520
+    },
+    {
+     "style": "dark",
+     "mean": 3.11,
+     "n": 360
+    },
+    {
+     "style": "retro-hud",
+     "mean": 2.66,
+     "n": 38
+    },
+    {
+     "style": "minimal",
+     "mean": 2.55,
+     "n": 644
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.63,
+     "n": 56
+    },
+    {
+     "style": "entrance",
+     "mean": 3.17,
+     "n": 111
+    },
+    {
+     "style": "loop",
+     "mean": 3.12,
+     "n": 74
+    },
+    {
+     "style": "micro",
+     "mean": 3.09,
+     "n": 312
+    },
+    {
+     "style": "none",
+     "mean": 2.61,
+     "n": 879
+    }
+   ],
+   "finding": "1,434 parts (mean 2.82): gradient rates 3.26 vs minimal 2.55; interactive motion 3.63 vs none 2.61"
+  },
+  "section/logos": {
+   "slots": [
+    "landing:logos"
+   ],
+   "n": 393,
+   "mean": 2.85,
+   "looks": [
+    {
+     "style": "clean",
+     "mean": 3.17,
+     "n": 145
+    },
+    {
+     "style": "dark",
+     "mean": 3.04,
+     "n": 168
+    },
+    {
+     "style": "minimal",
+     "mean": 2.62,
+     "n": 150
+    }
+   ],
+   "motion": [
+    {
+     "style": "loop",
+     "mean": 2.95,
+     "n": 151
+    },
+    {
+     "style": "none",
+     "mean": 2.64,
+     "n": 177
+    }
+   ],
+   "finding": "393 parts (mean 2.85): clean rates 3.17 vs minimal 2.62; loop motion 2.95 vs none 2.64"
+  },
+  "section/nav": {
+   "slots": [
+    "landing:nav"
+   ],
+   "n": 1164,
+   "mean": 2.92,
+   "looks": [
+    {
+     "style": "editorial",
+     "mean": 3.76,
+     "n": 41
+    },
+    {
+     "style": "glass",
+     "mean": 3.55,
+     "n": 87
+    },
+    {
+     "style": "playful",
+     "mean": 3.47,
+     "n": 43
+    },
+    {
+     "style": "clean",
+     "mean": 3.36,
+     "n": 364
+    },
+    {
+     "style": "dark",
+     "mean": 3.28,
+     "n": 274
+    },
+    {
+     "style": "minimal",
+     "mean": 2.55,
+     "n": 576
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.74,
+     "n": 107
+    },
+    {
+     "style": "entrance",
+     "mean": 3.54,
+     "n": 68
+    },
+    {
+     "style": "scroll",
+     "mean": 3.4,
+     "n": 42
+    },
+    {
+     "style": "micro",
+     "mean": 3.11,
+     "n": 424
+    },
+    {
+     "style": "none",
+     "mean": 2.47,
+     "n": 512
+    }
+   ],
+   "finding": "1,164 parts (mean 2.92): editorial rates 3.76 vs minimal 2.55; interactive motion 3.74 vs none 2.47"
+  },
+  "section/onboarding": {
+   "slots": [
+    "dashboard:onboarding"
+   ],
+   "n": 515,
+   "mean": 2.87,
+   "looks": [
+    {
+     "style": "clean",
+     "mean": 3.26,
+     "n": 175
+    },
+    {
+     "style": "minimal",
+     "mean": 2.7,
+     "n": 289
+    },
+    {
+     "style": "dark",
+     "mean": 2.62,
+     "n": 65
+    }
+   ],
+   "motion": [
+    {
+     "style": "entrance",
+     "mean": 3.42,
+     "n": 62
+    },
+    {
+     "style": "interactive",
+     "mean": 3.23,
+     "n": 31
+    },
+    {
+     "style": "micro",
+     "mean": 3,
+     "n": 207
+    },
+    {
+     "style": "none",
+     "mean": 2.52,
+     "n": 214
+    }
+   ],
+   "finding": "515 parts (mean 2.87): clean rates 3.26 vs dark 2.62; entrance motion 3.42 vs none 2.52"
+  },
+  "section/page-header": {
+   "slots": [
+    "dashboard:page-header"
+   ],
+   "n": 365,
+   "mean": 2.52,
+   "looks": [
+    {
+     "style": "clean",
+     "mean": 3.23,
+     "n": 78
+    },
+    {
+     "style": "dark",
+     "mean": 2.46,
+     "n": 56
+    },
+    {
+     "style": "minimal",
+     "mean": 2.29,
+     "n": 252
+    }
+   ],
+   "motion": [
+    {
+     "style": "micro",
+     "mean": 3.12,
+     "n": 43
+    },
+    {
+     "style": "none",
+     "mean": 2.39,
+     "n": 310
+    }
+   ],
+   "finding": "365 parts (mean 2.52): clean rates 3.23 vs minimal 2.29; micro motion 3.12 vs none 2.39"
+  },
+  "section/pricing": {
+   "slots": [
+    "landing:pricing"
+   ],
+   "n": 948,
+   "mean": 3.06,
+   "looks": [
+    {
+     "style": "gradient",
+     "mean": 3.57,
+     "n": 46
+    },
+    {
+     "style": "dark",
+     "mean": 3.45,
+     "n": 193
+    },
+    {
+     "style": "clean",
+     "mean": 3.09,
+     "n": 556
+    },
+    {
+     "style": "minimal",
+     "mean": 2.74,
+     "n": 260
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.73,
+     "n": 80
+    },
+    {
+     "style": "micro",
+     "mean": 3.24,
+     "n": 308
+    },
+    {
+     "style": "entrance",
+     "mean": 3.16,
+     "n": 44
+    },
+    {
+     "style": "none",
+     "mean": 2.82,
+     "n": 497
+    }
+   ],
+   "finding": "948 parts (mean 3.06): gradient rates 3.57 vs minimal 2.74; interactive motion 3.73 vs none 2.82"
+  },
+  "section/settings-panel": {
+   "slots": [
+    "dashboard:settings"
+   ],
+   "n": 1314,
+   "mean": 2.73,
+   "looks": [
+    {
+     "style": "clean",
+     "mean": 3.06,
+     "n": 447
+    },
+    {
+     "style": "dark",
+     "mean": 3.04,
+     "n": 362
+    },
+    {
+     "style": "light",
+     "mean": 2.58,
+     "n": 40
+    },
+    {
+     "style": "minimal",
+     "mean": 2.51,
+     "n": 655
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.69,
+     "n": 64
+    },
+    {
+     "style": "entrance",
+     "mean": 2.88,
+     "n": 40
+    },
+    {
+     "style": "micro",
+     "mean": 2.76,
+     "n": 637
+    },
+    {
+     "style": "none",
+     "mean": 2.58,
+     "n": 569
+    }
+   ],
+   "finding": "1,314 parts (mean 2.73): clean rates 3.06 vs minimal 2.51; interactive motion 3.69 vs none 2.58"
+  },
+  "section/shell": {
+   "slots": [
+    "dashboard:shell"
+   ],
+   "n": 996,
+   "mean": 2.69,
+   "looks": [
+    {
+     "style": "light",
+     "mean": 3.03,
+     "n": 137
+    },
+    {
+     "style": "clean",
+     "mean": 2.98,
+     "n": 368
+    },
+    {
+     "style": "dark",
+     "mean": 2.94,
+     "n": 340
+    },
+    {
+     "style": "minimal",
+     "mean": 2.52,
+     "n": 437
+    }
+   ],
+   "motion": [
+    {
+     "style": "micro",
+     "mean": 2.83,
+     "n": 316
+    },
+    {
+     "style": "none",
+     "mean": 2.64,
+     "n": 587
+    },
+    {
+     "style": "interactive",
+     "mean": 2.6,
+     "n": 78
+    }
+   ],
+   "finding": "996 parts (mean 2.69): light rates 3.03 vs minimal 2.52; micro motion 2.83 vs interactive 2.6"
+  },
+  "section/showcase": {
+   "slots": [
+    "landing:showcase"
+   ],
+   "n": 1438,
+   "mean": 3.08,
+   "looks": [
+    {
+     "style": "gradient",
+     "mean": 3.88,
+     "n": 72
+    },
+    {
+     "style": "editorial",
+     "mean": 3.77,
+     "n": 87
+    },
+    {
+     "style": "3d",
+     "mean": 3.51,
+     "n": 217
+    },
+    {
+     "style": "glass",
+     "mean": 3.33,
+     "n": 42
+    },
+    {
+     "style": "dark",
+     "mean": 3.26,
+     "n": 289
+    },
+    {
+     "style": "playful",
+     "mean": 3.22,
+     "n": 69
+    },
+    {
+     "style": "illustrated",
+     "mean": 3.18,
+     "n": 39
+    },
+    {
+     "style": "clean",
+     "mean": 3.11,
+     "n": 504
+    },
+    {
+     "style": "minimal",
+     "mean": 2.73,
+     "n": 342
+    },
+    {
+     "style": "retro-hud",
+     "mean": 2.7,
+     "n": 47
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.41,
+     "n": 315
+    },
+    {
+     "style": "scroll",
+     "mean": 3.29,
+     "n": 116
+    },
+    {
+     "style": "entrance",
+     "mean": 3.17,
+     "n": 122
+    },
+    {
+     "style": "micro",
+     "mean": 3.15,
+     "n": 199
+    },
+    {
+     "style": "loop",
+     "mean": 2.96,
+     "n": 170
+    },
+    {
+     "style": "none",
+     "mean": 2.8,
+     "n": 495
+    }
+   ],
+   "finding": "1,438 parts (mean 3.08): gradient rates 3.88 vs retro-hud 2.7; interactive motion 3.41 vs none 2.8"
+  },
+  "section/sidebar": {
+   "slots": [
+    "dashboard:sidebar"
+   ],
+   "n": 873,
+   "mean": 2.91,
+   "looks": [
+    {
+     "style": "dark",
+     "mean": 3.36,
+     "n": 343
+    },
+    {
+     "style": "clean",
+     "mean": 3.09,
+     "n": 227
+    },
+    {
+     "style": "minimal",
+     "mean": 2.43,
+     "n": 359
+    }
+   ],
+   "motion": [
+    {
+     "style": "interactive",
+     "mean": 3.42,
+     "n": 66
+    },
+    {
+     "style": "entrance",
+     "mean": 3.36,
+     "n": 56
+    },
+    {
+     "style": "micro",
+     "mean": 3.2,
+     "n": 448
+    },
+    {
+     "style": "none",
+     "mean": 2.25,
+     "n": 295
+    }
+   ],
+   "finding": "873 parts (mean 2.91): dark rates 3.36 vs minimal 2.43; interactive motion 3.42 vs none 2.25"
+  },
+  "section/stats": {
+   "slots": [
+    "landing:stats"
+   ],
+   "n": 459,
+   "mean": 3.11,
+   "looks": [
+    {
+     "style": "clean",
+     "mean": 3.39,
+     "n": 238
+    },
+    {
+     "style": "gradient",
+     "mean": 3.29,
+     "n": 42
+    },
+    {
+     "style": "dark",
+     "mean": 2.99,
+     "n": 96
+    },
+    {
+     "style": "minimal",
+     "mean": 2.79,
+     "n": 150
+    }
+   ],
+   "motion": [
+    {
+     "style": "entrance",
+     "mean": 3.47,
+     "n": 74
+    },
+    {
+     "style": "none",
+     "mean": 3,
+     "n": 311
+    }
+   ],
+   "finding": "459 parts (mean 3.11): clean rates 3.39 vs minimal 2.79; entrance motion 3.47 vs none 3"
+  },
+  "section/team": {
+   "slots": [
+    "landing:team"
+   ],
+   "n": 373,
+   "mean": 3.21,
+   "looks": [
+    {
+     "style": "clean",
+     "mean": 3.52,
+     "n": 184
+    },
+    {
+     "style": "dark",
+     "mean": 3,
+     "n": 83
+    },
+    {
+     "style": "minimal",
+     "mean": 2.78,
+     "n": 87
+    },
+    {
+     "style": "neon-glow",
+     "mean": 2.16,
+     "n": 37
+    }
+   ],
+   "motion": [
+    {
+     "style": "micro",
+     "mean": 3.57,
+     "n": 42
+    },
+    {
+     "style": "none",
+     "mean": 3.08,
+     "n": 287
+    }
+   ],
+   "finding": "373 parts (mean 3.21): clean rates 3.52 vs neon-glow 2.16; micro motion 3.57 vs none 3.08"
+  },
+  "section/testimonials": {
+   "slots": [
+    "landing:testimonials"
+   ],
+   "n": 905,
+   "mean": 2.99,
+   "looks": [
+    {
+     "style": "editorial",
+     "mean": 3.49,
+     "n": 49
+    },
+    {
+     "style": "gradient",
+     "mean": 3.46,
+     "n": 61
+    },
+    {
+     "style": "dark",
+     "mean": 3.22,
+     "n": 200
+    },
+    {
+     "style": "clean",
+     "mean": 2.98,
+     "n": 487
+    },
+    {
+     "style": "minimal",
+     "mean": 2.6,
+     "n": 248
+    }
+   ],
+   "motion": [
+    {
+     "style": "entrance",
+     "mean": 3.47,
+     "n": 43
+    },
+    {
+     "style": "interactive",
+     "mean": 3.36,
+     "n": 101
+    },
+    {
+     "style": "micro",
+     "mean": 3.32,
+     "n": 59
+    },
+    {
+     "style": "loop",
+     "mean": 3.04,
+     "n": 127
+    },
+    {
+     "style": "none",
+     "mean": 2.81,
+     "n": 551
+    }
+   ],
+   "finding": "905 parts (mean 2.99): editorial rates 3.49 vs minimal 2.6; entrance motion 3.47 vs none 2.81"
+  },
+  "section/top-bar": {
+   "slots": [
+    "dashboard:top-bar"
+   ],
+   "n": 318,
+   "mean": 2.77,
+   "looks": [
+    {
+     "style": "clean",
+     "mean": 3.28,
+     "n": 109
+    },
+    {
+     "style": "dark",
+     "mean": 3,
+     "n": 62
+    },
+    {
+     "style": "minimal",
+     "mean": 2.44,
+     "n": 189
+    }
+   ],
+   "motion": [
+    {
+     "style": "micro",
+     "mean": 2.94,
+     "n": 135
+    },
+    {
+     "style": "none",
+     "mean": 2.48,
+     "n": 156
+    }
+   ],
+   "finding": "318 parts (mean 2.77): clean rates 3.28 vs minimal 2.44; micro motion 2.94 vs none 2.48"
+  }
+ }
+}

@@ -1,0 +1,12 @@
+{
+  "_why": "One name per organisation, so consensus counts independent orgs, not spellings. Matched case-insensitively against the start of a source's org.",
+  "Nielsen Norman Group": ["nielsen norman", "jakob nielsen", "nngroup", "nn/g"],
+  "W3C": ["w3c"],
+  "Apple": ["apple"],
+  "Baymard Institute": ["baymard"],
+  "GOV.UK": ["gov.uk", "government digital service"],
+  "USWDS": ["gsa usswds", "gsa uswds", "uswds"],
+  "Meta": ["facebook", "meta"],
+  "Stanford Behavior Design Lab": ["stanford behavior design lab", "stanford persuasive technology lab"],
+  "Laws of UX (Jon Yablonski)": ["jon yablonski", "laws of ux"]
+}

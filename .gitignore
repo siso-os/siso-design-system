@@ -18,3 +18,5 @@ ratings.db
 ratings.db-journal
 ratings.db-wal
 ratings.db-shm
+research/_text/
+research/_text_deep/
